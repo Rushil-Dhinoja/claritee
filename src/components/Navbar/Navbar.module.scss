@@ -1,0 +1,67 @@
+@import '../../styles/index.scss';
+.navbar {
+  background-color: $navbar-bg;
+  border-bottom: 1px solid $navbar-border;
+  display: flex;
+  padding: 3.2rem 0;
+
+  img {
+    margin-left: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  li,
+  .navbar-cta {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 8rem;
+    align-items: flex-end;
+    li {
+      color: $font-dark;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      padding-bottom: 1rem;
+      transition: border-color 0.2s;
+
+      // Temporary Fix
+      &:nth-of-type(2) {
+        border-color: $font-dark;
+      }
+
+      // Temporary Fix
+
+      &:not(:first-child) {
+        margin-left: 8rem;
+      }
+      &:hover {
+        border-color: $font-dark;
+      }
+    }
+  }
+
+  .navbar-cta {
+    display: flex;
+    margin-left: auto;
+    margin-right: 3rem;
+    align-items: flex-end;
+    .signin,
+    .signup {
+      padding: 1rem 1.2rem;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+    .signup {
+      background-color: #36caf8;
+      margin-right: 2.5rem;
+
+      border-radius: 10px;
+      color: $white;
+    }
+  }
+}

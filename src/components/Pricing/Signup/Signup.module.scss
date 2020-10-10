@@ -1,0 +1,30 @@
+@import '../../../styles/index.scss';
+.signup {
+  background-color: $font-dark;
+  color: $white;
+  width: 50%;
+  border-right: 1px solid $white;
+  box-sizing: border-box;
+  padding: 2.5rem 7rem 0 7rem;
+  h2 {
+    font-size: 55px;
+    line-height: 72px;
+    font-weight: 300;
+    margin-bottom: 3rem;
+  }
+  p {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    .text {
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: 500;
+      margin-right: 1.5rem;
+    }
+    .image {
+      height: 16px;
+      width: 16px;
+    }
+  }
+}

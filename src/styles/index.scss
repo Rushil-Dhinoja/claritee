@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@300;400;500&display=swap');
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Yantramanav', sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+// Variables
+$white: #fff;
+
+$navbar-bg: #fbfeff;
+$navbar-border: #cbf0fb;
+$font-dark: #08152e;
